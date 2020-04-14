@@ -1,0 +1,352 @@
+/* TAG SELECTORS */
+
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+
+/* HEADINGS */
+
+.big-heading {
+  color: white;
+  margin: 0 20%;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.section-heading {
+  padding-bottom: 50px;
+}
+
+
+/* CONTAINERS */
+
+.container-fluid {
+  padding: 5% 10%;
+  width: 100%;
+  margin: 0;
+}
+
+#nav .container-fluid {
+  padding-bottom: 0;
+}
+
+
+/* SECTIONS */
+
+.colored-section {
+  background-color: #22cc4f;
+  color: white;
+}
+
+.colored-section#testimonials, .colored-section#press {
+  font-weight:bold;
+  background-color: #4ce166;
+}
+
+.white-section {
+  background-color: #f9fcfb;
+}
+
+
+/* IMAGES */
+
+.background-image {
+  width: 100%;
+}
+
+
+/* NAV SECTION */
+
+#nav {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+
+/* TITLE SECTION */
+
+.search-bar {
+  margin: 40px auto 0;
+  width: 60%;
+}
+
+#button-search {
+  background-color: #fd5e53;
+}
+
+#button-search:hover {
+  background-color: #c82333;
+}
+
+
+/* HOW-TO SECTION */
+
+.step-number {
+  display:block;
+  position:relative;
+  bottom:10%;
+  width: 35px;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  background-color: #fd5e53;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.steps {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.steps-desc {
+  width: 90%;
+  display: block;
+  margin: auto;
+  color: #8F8F8F;
+}
+
+.step-image {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+
+/* TESTIMONIALS */
+
+.testimonial-text {
+  font-style: italic;
+  font-size: 1.3rem;
+  margin: 0 20% 20px;
+}
+
+.testi-img {
+  width: 15%;
+  margin-top: 20px;
+  border-radius: 100%;
+}
+
+.logo-press {
+  width: 15%;
+  margin: 0 20px;
+}
+
+
+/* PRICING */
+
+.card {
+  margin: 20px;
+}
+
+.card-header {
+  color: #fd5e53;
+}
+
+.get-started {
+  width:80%
+}
+
+.sign-up {
+  background-color: #fd5e53;
+  width:80%
+}
+
+.sign-up:hover {
+  background-color: #c82333;
+}
+
+.star {
+  font-size: 10px;
+}
+
+
+/* CALL TO ACTION */
+
+.button-download {
+  background-color: #fd5e53;
+  margin-right: 10px;
+  width:176.385px;
+}
+
+#cta .container-fluid {
+  text-align: left;
+}
+
+.cta-title {
+  font-weight: 700;
+  margin-bottom: 7%;
+  font-size: 2.5rem;
+}
+
+.cta-text {
+  font-weight: 500;
+  font-size: 1.7rem;
+  margin-bottom: 40px;
+}
+
+.iphone {
+  width: 45%;
+  margin: 20px 25%;
+  transform: rotate(10deg);
+  position:absolute;
+}
+
+
+/* FOOTER */
+
+.cpr {
+  font-size: 12px;
+}
+
+.credits {
+  font-size: 10px;
+  margin: 0 auto;
+}
+
+.flaticon-link {
+  color: white;
+}
+
+.footer {
+  padding: 60px;
+  position:relative;
+}
+
+.social-logo {
+  padding: 0 15px 20px;
+  font-size: 20px;
+}
+
+.social-logo:hover {
+  color: #c82333;
+}
+
+
+/*_____________________MEDIA QUERIES_____________________*/
+
+@media (max-width: 991px) {
+
+  #cta .container-fluid {
+    text-align: center;
+  }
+
+  .iphone {
+    position:static;
+    transform: rotate(0);
+  }
+
+  .footer {
+    position:static;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+/* HEADINGS MEDIUM SCREEN*/
+
+  .big-heading {
+    color: white;
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+  }
+
+  /* TITLES MEDIUM SCREEN */
+
+  .search-bar {
+    margin: 40px auto 0;
+    width: 90%;
+  }
+
+  /* HOW-TO MEDIUM SCREEN */
+
+  .step-number {
+    display:block;
+    position:relative;
+    bottom:10%;
+    left:20%;
+    width: 35px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    background-color: #fd5e53;
+    padding: 5px;
+    border-radius: 100%;
+  }
+
+  .steps {
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+
+  .steps-desc {
+    width: 90%;
+    color: #8F8F8F;
+    margin-bottom: 30px;
+  }
+
+  .step-image {
+    width: 40%;
+  }
+
+/* TESTIMONIALS MEDIUM SCREEN */
+
+.testimonial-text {
+  font-style: italic;
+  font-size: 1.1rem;
+  margin: 0 20% 20px;
+}
+
+.testimonial-name {
+  font-size: 0.9rem;
+}
+
+.testi-img {
+  width: 25%;
+  margin-top: 20px;
+  border-radius: 100%;
+}
+
+.logo-press {
+  width: 25%;
+  margin: 20px;
+}
+
+/* CTA MEDIUM SCREEN */
+
+.button-download {
+  background-color: #fd5e53;
+  margin: 0 0 10px 0;
+  width:176.385px;
+}
+
+.cta-title {
+  font-weight: 700;
+  margin-bottom: 7%;
+  font-size: 2rem;
+}
+
+.cta-text {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 40px;
+}
+}
