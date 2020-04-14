@@ -334,7 +334,7 @@ h1, h2, h3 {
 
 .button-download {
   background-color: #fd5e53;
-  margin: 0 0 10px 0;
+  margin-right: 10px;
   width:176.385px;
 }
 
@@ -349,4 +349,13 @@ h1, h2, h3 {
   font-size: 1.4rem;
   margin-bottom: 40px;
 }
+}
+
+@media (max-width: 477px) {
+
+  .button-download {
+    background-color: #fd5e53;
+    margin: 0 0 10px 0;
+    width:176.385px;
+  }
 }
